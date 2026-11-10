@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="92" viewBox="0 0 84 92" role="img" aria-label="Motion">
+  <title>Motion</title>
+  <rect x="0.5" y="0.5" width="83" height="91" rx="14" fill="#0a0a0a" stroke="#262626"/>
+  <svg x="24" y="15" width="36" height="36" viewBox="0 0 128 128"><path fill="#fafafa" d="M22.684 0h84.253v42.667H64.81L22.684 0Zm0 42.667H64.81l42.127 42.666H64.81V128L22.684 85.333V42.667Z"/></svg>
+  <text x="42" y="74" text-anchor="middle" fill="#a3a3a3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="500">Motion</text>
+</svg>
