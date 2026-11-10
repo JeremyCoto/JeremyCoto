@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Software Engineering × Artificial Intelligence</title>
+  <desc id="d">A pink cat sitting in the center of a dark radial gradient that glows blue, pink and orange at the edges.</desc>
+  <style>
+    .breathe { transform-box: fill-box; transform-origin: 50% 20%; animation: breathe 7s ease-in-out infinite alternate; }
+    .tail { transform-box: fill-box; transform-origin: 0% 100%; animation: sway 2.8s ease-in-out infinite alternate; }
+    .blink { transform-box: fill-box; transform-origin: center; animation: blink 6s infinite; }
+    @keyframes breathe { from { transform: scale(1) } to { transform: scale(1.05) } }
+    @keyframes sway { from { transform: rotate(-5deg) } to { transform: rotate(7deg) } }
+    @keyframes blink { 0%, 94%, 100% { transform: scaleY(1) } 97% { transform: scaleY(0.1) } }
+    @media (prefers-reduced-motion: reduce) { .breathe, .tail, .blink { animation: none } }
+  </style>
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.2" r="1.25" gradientUnits="objectBoundingBox">
+      <stop offset="35%" stop-color="#0A0A0A"/>
+      <stop offset="50%" stop-color="#2979FF"/>
+      <stop offset="60%" stop-color="#FF80AB"/>
+      <stop offset="70%" stop-color="#FF6D00"/>
+      <stop offset="80%" stop-color="#FFD600"/>
+      <stop offset="90%" stop-color="#00E676"/>
+      <stop offset="100%" stop-color="#3D5AFE"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#F06FC8"/>
+      <stop offset="1" stop-color="#D24FA8"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="420" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect x="-60" y="-30" width="1320" height="480" fill="#0A0A0A"/>
+    <rect class="breathe" x="0" y="0" width="1200" height="420" fill="url(#bg)"/>
+  </g>
+
+  <!-- gato (coordenadas locales 200x200, base en y=200) -->
+  <g transform="translate(470 8) scale(1.3)">
+    <ellipse cx="104" cy="201" rx="64" ry="6" fill="#6E5BC8" opacity="0.6"/>
+    <ellipse cx="150" cy="200" rx="9" ry="3.5" fill="#3B2E7A" opacity="0.8"/>
+    <!-- cola -->
+    <path class="tail" d="M138 194 C 170 200, 184 178, 178 152 C 174 134, 158 128, 150 140"
+          fill="none" stroke="url(#fur)" stroke-width="14" stroke-linecap="round"/>
+    <!-- cuerpo -->
+    <path d="M54 200 C 44 162, 56 124, 80 106 C 86 100, 93 97, 100 97 C 109 97, 118 101, 125 109
+             C 148 132, 156 172, 147 200 Z" fill="url(#fur)"/>
+    <path d="M121 108 C 142 130, 150 168, 143 200 L 130 200 C 135 170, 130 136, 116 116 Z" fill="#B83F93" opacity="0.45"/>
+    <!-- pecho -->
+    <path d="M88 112 C 79 142, 79 176, 85 200 L 107 200 C 110 176, 107 140, 100 112 Z" fill="#F8D7EC"/>
+    <ellipse cx="86" cy="199" rx="10" ry="4" fill="#F8D7EC"/>
+    <ellipse cx="111" cy="199" rx="10" ry="4" fill="#EFA9D6"/>
+    <!-- orejas -->
+    <path d="M76 74 L 73 42 L 94 62 Z" fill="url(#fur)"/>
+    <path d="M104 60 L 124 40 L 123 74 Z" fill="#D452AE"/>
+    <path d="M78 66 L 77 50 L 89 61 Z" fill="#F4B3DD"/>
+    <path d="M109 60 L 120 49 L 120 66 Z" fill="#F4B3DD" opacity="0.85"/>
+    <!-- cabeza -->
+    <ellipse cx="99" cy="82" rx="27" ry="24" fill="url(#fur)"/>
+    <ellipse cx="88" cy="74" rx="9" ry="6" fill="#FFFFFF" opacity="0.12"/>
+    <!-- cara -->
+    <ellipse class="blink" cx="89" cy="83" rx="3" ry="4.2" fill="#2A0F22"/>
+    <ellipse class="blink" cx="110" cy="83" rx="3" ry="4.2" fill="#2A0F22"/>
+    <path d="M97 91 h 6 l -3 3.5 Z" fill="#8E2C6A"/>
+    <path d="M100 94.5 q -3 4 -6 2 M100 94.5 q 3 4 6 2" fill="none" stroke="#8E2C6A" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+
+  <text x="600.0" y="338" text-anchor="middle" fill="#D4D4D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="-0.3">Software Engineering <tspan fill="#FFFFFF">×</tspan> Artificial Intelligence</text>
+</svg>
