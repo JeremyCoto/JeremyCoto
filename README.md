@@ -3,9 +3,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Jeremy Coto — Software Engineering × Artificial Intelligence. Systems Engineering Student, Universidad Fidélitas, Costa Rica." src="./assets/header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Hi, I'm Jeremy. Jeremy Coto, Software Engineering × Artificial Intelligence. Systems Engineering student at Universidad Fidélitas, Costa Rica." src="./assets/hero-light.svg" width="100%">
 </picture>
 
 <sub>
