@@ -2,13 +2,9 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-v2-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-v2-light.svg">
-  <img alt="Hi, I'm Jeremy. Jeremy Coto, Software Engineering × Artificial Intelligence. Software Developer, UX/UI Design, AI Systems." src="./assets/hero-v2-light.svg" width="100%">
-</picture>
+<img alt="Hi, I'm Jeremy. Jeremy Coto, Software Engineering × Artificial Intelligence. Software Developer, UX/UI Design, AI Systems." src="./assets/hero-v3.svg" width="100%">
 
-<img alt="A pink cat sitting in the center of a dark radial gradient that glows blue, pink and orange — Software Engineering × Artificial Intelligence" src="./assets/cat-banner.svg" width="100%">
+<img alt="A pink cat sitting in the center of a dark radial gradient that glows blue, pink and orange — Software Engineering × Artificial Intelligence" src="./assets/cat-banner-v2.svg" width="100%">
 
 <sub>
   <a href="#about">About</a> &nbsp;·&nbsp;
