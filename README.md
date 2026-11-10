@@ -30,16 +30,20 @@ I'm interested in understanding the craft behind good software: clear architectu
 
 <table>
   <tr>
-    <th align="left">Studying</th>
-    <th align="left">Exploring</th>
-    <th align="left">Based in</th>
-    <th align="left">Focus</th>
+    <td width="28%" valign="top"><b>Studying</b></td>
+    <td valign="top">Systems Engineering · Universidad Fidélitas</td>
   </tr>
   <tr>
-    <td valign="top">Systems Engineering<br><sub>Universidad Fidélitas</sub></td>
-    <td valign="top">AI &amp; software development<br><sub>for about three years</sub></td>
+    <td width="28%" valign="top"><b>Exploring</b></td>
+    <td valign="top">AI &amp; software development, for about three years</td>
+  </tr>
+  <tr>
+    <td width="28%" valign="top"><b>Based in</b></td>
     <td valign="top">Costa Rica</td>
-    <td valign="top">Software Engineering<br><sub>× Artificial Intelligence</sub></td>
+  </tr>
+  <tr>
+    <td width="28%" valign="top"><b>Focus</b></td>
+    <td valign="top">Software Engineering × Artificial Intelligence</td>
   </tr>
 </table>
 
@@ -50,25 +54,21 @@ I'm interested in understanding the craft behind good software: clear architectu
 <table>
   <tr>
     <td width="50%" valign="top">
-      <code>01</code>
-      <h4>Software Engineering</h4>
+      <h4><code>01</code>&nbsp; Software Engineering</h4>
       Modern software development, architecture, databases and maintainable code.
     </td>
     <td width="50%" valign="top">
-      <code>02</code>
-      <h4>Artificial Intelligence</h4>
+      <h4><code>02</code>&nbsp; Artificial Intelligence</h4>
       AI-assisted development, AI integrations and intelligent automation.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <code>03</code>
-      <h4>Technology Solutions</h4>
+      <h4><code>03</code>&nbsp; Technology Solutions</h4>
       Digital products, SaaS concepts and business-oriented software solutions.
     </td>
     <td width="50%" valign="top">
-      <code>04</code>
-      <h4>Interface Design</h4>
+      <h4><code>04</code>&nbsp; Interface Design</h4>
       UI/UX principles, modern interfaces, usability and accessibility.
     </td>
   </tr>
@@ -163,14 +163,16 @@ A live view of my public GitHub activity. The contribution snake is regenerated 
 
 <table>
   <tr>
-    <td width="33%" valign="top"><code>01</code><br>AI-powered software development</td>
-    <td width="33%" valign="top"><code>02</code><br>Intelligent workflow automation</td>
-    <td width="33%" valign="top"><code>03</code><br>SaaS and digital product development</td>
+    <td width="50%" valign="top"><code>01</code>&nbsp; AI-powered software development</td>
+    <td width="50%" valign="top"><code>02</code>&nbsp; Intelligent workflow automation</td>
   </tr>
   <tr>
-    <td width="33%" valign="top"><code>04</code><br>CRM and business management systems</td>
-    <td width="33%" valign="top"><code>05</code><br>Software architecture and modular systems</td>
-    <td width="33%" valign="top"><code>06</code><br>Product development and technical problem-solving</td>
+    <td width="50%" valign="top"><code>03</code>&nbsp; SaaS and digital product development</td>
+    <td width="50%" valign="top"><code>04</code>&nbsp; CRM and business management systems</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><code>05</code>&nbsp; Software architecture and modular systems</td>
+    <td width="50%" valign="top"><code>06</code>&nbsp; Product development and technical problem-solving</td>
   </tr>
 </table>
 
