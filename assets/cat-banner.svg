@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">Software Engineering × Artificial Intelligence</title>
+  <desc id="d">A pink cat sitting in the center of a dark radial gradient that glows blue, pink and orange at the edges.</desc>
+  <style>
+    .breathe { transform-box: fill-box; transform-origin: 50% 20%; animation: breathe 7s ease-in-out infinite alternate; }
+    .tail { transform-box: fill-box; transform-origin: 0% 100%; animation: sway 2.8s ease-in-out infinite alternate; }
+    .blink { transform-box: fill-box; transform-origin: center; animation: blink 6s infinite; }
+    @keyframes breathe { from { transform: scale(1) } to { transform: scale(1.05) } }
+    @keyframes sway { from { transform: rotate(-5deg) } to { transform: rotate(7deg) } }
+    @keyframes blink { 0%, 94%, 100% { transform: scaleY(1) } 97% { transform: scaleY(0.1) } }
+    @media (prefers-reduced-motion: reduce) { .breathe, .tail, .blink { animation: none } }
+  </style>
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.2" r="1.25" gradientUnits="objectBoundingBox">
+      <stop offset="35%" stop-color="#0A0A0A"/>
+      <stop offset="50%" stop-color="#2979FF"/>
+      <stop offset="60%" stop-color="#FF80AB"/>
+      <stop offset="70%" stop-color="#FF6D00"/>
+      <stop offset="80%" stop-color="#FFD600"/>
+      <stop offset="90%" stop-color="#00E676"/>
+      <stop offset="100%" stop-color="#3D5AFE"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="420" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect x="-60" y="-30" width="1320" height="480" fill="#0A0A0A"/>
+    <rect class="breathe" x="0" y="0" width="1200" height="420" fill="url(#bg)"/>
+  </g>
+
+  <!-- sombra -->
+  <ellipse cx="606" cy="270" rx="62" ry="6" fill="#7C6FD6" opacity="0.55"/>
+
+  <!-- cola -->
+  <path class="tail" d="M634 262 C 678 272, 698 238, 682 212 C 674 198, 658 204, 664 216"
+        fill="none" stroke="#E35DB4" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- cuerpo -->
+  <path d="M560 268 C 554 216, 570 176, 598 170
+           C 628 176, 644 216, 640 268 Z" fill="#E35DB4"/>
+  <!-- pecho -->
+  <path d="M586 186 C 576 218, 582 250, 590 268
+           L 608 268 C 614 242, 612 212, 604 186 Z" fill="#F7D4EA"/>
+  <!-- patas delanteras -->
+  <path d="M586 268 v -26" stroke="#C8479C" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+  <path d="M610 268 v -26" stroke="#C8479C" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- cabeza -->
+  <path d="M570 140 L 574 102 L 592 122 Z" fill="#E35DB4"/>
+  <path d="M626 140 L 624 102 L 606 122 Z" fill="#E35DB4"/>
+  <path d="M576 128 L 577 111 L 587 121 Z" fill="#C8479C" opacity="0.6"/>
+  <path d="M620 128 L 619 111 L 610 121 Z" fill="#C8479C" opacity="0.6"/>
+  <ellipse cx="598" cy="150" rx="31" ry="27" fill="#E35DB4"/>
+  <!-- ojos -->
+  <ellipse class="blink" cx="587" cy="147" rx="3" ry="4" fill="#2A0F22"/>
+  <ellipse class="blink" cx="609" cy="147" rx="3" ry="4" fill="#2A0F22"/>
+  <!-- nariz -->
+  <path d="M595 158 h 6 l -3 4 Z" fill="#8E2C6A"/>
+
+  <text x="600.0" y="338" text-anchor="middle" fill="#D4D4D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="-0.3">Software Engineering <tspan fill="#FFFFFF">×</tspan> Artificial Intelligence</text>
+</svg>
