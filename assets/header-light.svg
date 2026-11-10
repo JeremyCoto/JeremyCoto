@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
   <title id="t">Jeremy Coto</title>
-  <desc id="d">Software Engineering × Artificial Intelligence. Systems Engineering Student · Universidad Fidélitas · Costa Rica. Currently exploring: software engineering × AI, AI-assisted development, intelligent workflow automation, clean architecture &amp; structured data.</desc>
+  <desc id="d">Software Engineering × Artificial Intelligence. Systems Engineering Student · Universidad Fidélitas · Costa Rica.</desc>
   <defs>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#f0f0f0" stroke-width="1"/>
@@ -10,35 +10,20 @@
       <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.85"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glow" cx="1010" cy="70" r="460" gradientUnits="userSpaceOnUse">
+    <radialGradient id="glow" cx="1010" cy="60" r="460" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#5b5bd6" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#5b5bd6" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="clip0"><rect x="298" y="340" width="450" height="48"><animate attributeName="width" dur="20s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.085;0.2;0.2375;1" values="0;450;450;0;0"/></rect></clipPath>
-    <clipPath id="clip1"><rect x="298" y="340" width="0" height="48"><animate attributeName="width" dur="20s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.25;0.335;0.45;0.4875;1" values="0;0;414;414;0;0"/></rect></clipPath>
-    <clipPath id="clip2"><rect x="298" y="340" width="0" height="48"><animate attributeName="width" dur="20s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.5;0.585;0.7;0.7375;1" values="0;0;558;558;0;0"/></rect></clipPath>
-    <clipPath id="clip3"><rect x="298" y="340" width="0" height="48"><animate attributeName="width" dur="20s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.75;0.835;0.95;0.9875;1" values="0;0;648;648;0;0"/></rect></clipPath>
   </defs>
-  <rect width="1200" height="420" rx="20" fill="#ffffff"/>
-  <rect width="1200" height="420" rx="20" fill="url(#grid)"/>
-  <rect width="1200" height="420" rx="20" fill="url(#fade)"/>
-  <rect width="1200" height="420" rx="20" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="1199" height="419" rx="19.5" fill="none" stroke="#e5e5e5"/>
+  <rect width="1200" height="360" rx="20" fill="#ffffff"/>
+  <rect width="1200" height="360" rx="20" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#fade)"/>
+  <rect width="1200" height="360" rx="20" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="19.5" fill="none" stroke="#e5e5e5"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
-    <text x="80" y="160" fill="#0a0a0a" font-size="108" font-weight="700" letter-spacing="-4">Jeremy Coto</text>
-    <text x="82" y="228" fill="#525252" font-size="44" font-weight="500" letter-spacing="-0.5">Software Engineering <tspan fill="#5b5bd6">×</tspan> Artificial Intelligence</text>
-    <line x1="82" y1="262" x2="162" y2="262" stroke="#5b5bd6" stroke-width="3" stroke-linecap="round"/>
-    <text x="82" y="312" fill="#737373" font-size="34" font-weight="500">Systems Engineering Student · Universidad Fidélitas · Costa Rica</text>
-  </g>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-weight="500">
-    <text x="82" y="372" font-size="30" textLength="216" lengthAdjust="spacing" xml:space="preserve"><tspan fill="#5b5bd6">›</tspan><tspan fill="#737373"> exploring </tspan></text>
-    <text x="298" y="372" clip-path="url(#clip0)" fill="#0a0a0a" font-size="30" textLength="450" lengthAdjust="spacing" xml:space="preserve">software engineering × AI</text>
-    <text x="298" y="372" clip-path="url(#clip1)" fill="#0a0a0a" font-size="30" textLength="414" lengthAdjust="spacing" xml:space="preserve">AI-assisted development</text>
-    <text x="298" y="372" clip-path="url(#clip2)" fill="#0a0a0a" font-size="30" textLength="558" lengthAdjust="spacing" xml:space="preserve">intelligent workflow automation</text>
-    <text x="298" y="372" clip-path="url(#clip3)" fill="#0a0a0a" font-size="30" textLength="648" lengthAdjust="spacing" xml:space="preserve">clean architecture &amp; structured data</text>
-    <rect x="748" y="346" width="13" height="34" rx="2" fill="#5b5bd6">
-      <animate attributeName="x" dur="20s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.085;0.2;0.2375;0.25;0.335;0.45;0.4875;0.5;0.585;0.7;0.7375;0.75;0.835;0.95;0.9875;1" values="298;748;748;298;298;712;712;298;298;856;856;298;298;946;946;298;298"/>
-      <animate attributeName="opacity" dur="1.06s" repeatCount="indefinite" keyTimes="0;0.55;0.55;1" values="1;1;0;0"/>
-    </rect>
+    <text x="80" y="172" fill="#0a0a0a" font-size="108" font-weight="700" letter-spacing="-4">Jeremy Coto</text>
+    <text x="82" y="240" fill="#525252" font-size="44" font-weight="500" letter-spacing="-0.5">Software Engineering <tspan fill="#5b5bd6">×</tspan> Artificial Intelligence</text>
+    <line x1="82" y1="272" x2="162" y2="272" stroke="#5b5bd6" stroke-width="3" stroke-linecap="round"/>
+    <text x="82" y="320" fill="#737373" font-size="34" font-weight="500">Systems Engineering Student · Universidad Fidélitas · Costa Rica</text>
   </g>
 </svg>
